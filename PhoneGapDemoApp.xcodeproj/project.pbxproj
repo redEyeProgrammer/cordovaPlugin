@@ -14,6 +14,9 @@
 		86445CBE1F79A6E200011DBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86445CBC1F79A6E200011DBC /* LaunchScreen.storyboard */; };
 		86445CC91F79A6E200011DBC /* PhoneGapDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86445CC81F79A6E200011DBC /* PhoneGapDemoAppTests.swift */; };
 		86445CD41F79A6E200011DBC /* PhoneGapDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86445CD31F79A6E200011DBC /* PhoneGapDemoAppUITests.swift */; };
+		8A6365FB468D5E3BEADB1D70 /* Pods_PhoneGapDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03870BC9727358669E73F32 /* Pods_PhoneGapDemoApp.framework */; };
+		8F70C030E0AB3C26843486F6 /* Pods_PhoneGapDemoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70AE39FAF8337DD1E0ACA065 /* Pods_PhoneGapDemoAppUITests.framework */; };
+		A200FA0F327AFC4F933FC4C1 /* Pods_PhoneGapDemoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6B1E0EE6B4A2FF28C382D1 /* Pods_PhoneGapDemoAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00F5F5BFCA5D1743280CD151 /* Pods-PhoneGapDemoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneGapDemoAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneGapDemoAppUITests/Pods-PhoneGapDemoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3A6B1E0EE6B4A2FF28C382D1 /* Pods_PhoneGapDemoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneGapDemoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AE39FAF8337DD1E0ACA065 /* Pods_PhoneGapDemoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneGapDemoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73C6243B947877771D368BE5 /* Pods-PhoneGapDemoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneGapDemoAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneGapDemoAppTests/Pods-PhoneGapDemoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		7428449FC6F55D53818BE074 /* Pods-PhoneGapDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneGapDemoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneGapDemoApp/Pods-PhoneGapDemoApp.release.xcconfig"; sourceTree = "<group>"; };
 		86445CB01F79A6E200011DBC /* PhoneGapDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneGapDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86445CB31F79A6E200011DBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86445CB51F79A6E200011DBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		86445CCF1F79A6E200011DBC /* PhoneGapDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneGapDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86445CD31F79A6E200011DBC /* PhoneGapDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneGapDemoAppUITests.swift; sourceTree = "<group>"; };
 		86445CD51F79A6E200011DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB729A3AE5A3E447B974A518 /* Pods-PhoneGapDemoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneGapDemoAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneGapDemoAppTests/Pods-PhoneGapDemoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D03870BC9727358669E73F32 /* Pods_PhoneGapDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneGapDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FF9986253F35424F749829 /* Pods-PhoneGapDemoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneGapDemoAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneGapDemoAppUITests/Pods-PhoneGapDemoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F91AADC88A5B782466834149 /* Pods-PhoneGapDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneGapDemoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneGapDemoApp/Pods-PhoneGapDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A6365FB468D5E3BEADB1D70 /* Pods_PhoneGapDemoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A200FA0F327AFC4F933FC4C1 /* Pods_PhoneGapDemoAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F70C030E0AB3C26843486F6 /* Pods_PhoneGapDemoAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				86445CC71F79A6E200011DBC /* PhoneGapDemoAppTests */,
 				86445CD21F79A6E200011DBC /* PhoneGapDemoAppUITests */,
 				86445CB11F79A6E200011DBC /* Products */,
+				F53A3FD38778D8D494A424FF /* Pods */,
+				F6BF11A566FE17BF8D869F71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = PhoneGapDemoAppUITests;
 			sourceTree = "<group>";
 		};
+		F53A3FD38778D8D494A424FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F91AADC88A5B782466834149 /* Pods-PhoneGapDemoApp.debug.xcconfig */,
+				7428449FC6F55D53818BE074 /* Pods-PhoneGapDemoApp.release.xcconfig */,
+				BB729A3AE5A3E447B974A518 /* Pods-PhoneGapDemoAppTests.debug.xcconfig */,
+				73C6243B947877771D368BE5 /* Pods-PhoneGapDemoAppTests.release.xcconfig */,
+				D1FF9986253F35424F749829 /* Pods-PhoneGapDemoAppUITests.debug.xcconfig */,
+				00F5F5BFCA5D1743280CD151 /* Pods-PhoneGapDemoAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6BF11A566FE17BF8D869F71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D03870BC9727358669E73F32 /* Pods_PhoneGapDemoApp.framework */,
+				3A6B1E0EE6B4A2FF28C382D1 /* Pods_PhoneGapDemoAppTests.framework */,
+				70AE39FAF8337DD1E0ACA065 /* Pods_PhoneGapDemoAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86445CD81F79A6E200011DBC /* Build configuration list for PBXNativeTarget "PhoneGapDemoApp" */;
 			buildPhases = (
+				613B00990790E5D730DA226D /* [CP] Check Pods Manifest.lock */,
 				86445CAC1F79A6E200011DBC /* Sources */,
 				86445CAD1F79A6E200011DBC /* Frameworks */,
 				86445CAE1F79A6E200011DBC /* Resources */,
+				898FEFC0C1CE21176B08FC73 /* [CP] Embed Pods Frameworks */,
+				2956F9485B6B9792F5726BED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86445CDB1F79A6E200011DBC /* Build configuration list for PBXNativeTarget "PhoneGapDemoAppTests" */;
 			buildPhases = (
+				ED0A2257FA62020961FF5435 /* [CP] Check Pods Manifest.lock */,
 				86445CC01F79A6E200011DBC /* Sources */,
 				86445CC11F79A6E200011DBC /* Frameworks */,
 				86445CC21F79A6E200011DBC /* Resources */,
+				F33C82276088BE8E1949E157 /* [CP] Embed Pods Frameworks */,
+				06F47B99D05D437809C578B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86445CDE1F79A6E200011DBC /* Build configuration list for PBXNativeTarget "PhoneGapDemoAppUITests" */;
 			buildPhases = (
+				3F7D4670A5EC2D1B909939A3 /* [CP] Check Pods Manifest.lock */,
 				86445CCB1F79A6E200011DBC /* Sources */,
 				86445CCC1F79A6E200011DBC /* Frameworks */,
 				86445CCD1F79A6E200011DBC /* Resources */,
+				1DB62C91B9DB42D97139919D /* [CP] Embed Pods Frameworks */,
+				1700D825C8B21901567E7A5B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,162 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06F47B99D05D437809C578B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneGapDemoAppTests/Pods-PhoneGapDemoAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1700D825C8B21901567E7A5B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneGapDemoAppUITests/Pods-PhoneGapDemoAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DB62C91B9DB42D97139919D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneGapDemoAppUITests/Pods-PhoneGapDemoAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2956F9485B6B9792F5726BED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneGapDemoApp/Pods-PhoneGapDemoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F7D4670A5EC2D1B909939A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhoneGapDemoAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		613B00990790E5D730DA226D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhoneGapDemoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		898FEFC0C1CE21176B08FC73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PhoneGapDemoApp/Pods-PhoneGapDemoApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cordova/Cordova.framework",
+				"${BUILT_PRODUCTS_DIR}/CordovaPlugin-console/CordovaPlugin_console.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-camera/cordova_plugin_camera.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-wkwebview-engine/cordova_plugin_wkwebview_engine.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cordova.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CordovaPlugin_console.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_camera.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_wkwebview_engine.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneGapDemoApp/Pods-PhoneGapDemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED0A2257FA62020961FF5435 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhoneGapDemoAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F33C82276088BE8E1949E157 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneGapDemoAppTests/Pods-PhoneGapDemoAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		86445CAC1F79A6E200011DBC /* Sources */ = {
@@ -424,6 +629,7 @@
 		};
 		86445CD91F79A6E200011DBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F91AADC88A5B782466834149 /* Pods-PhoneGapDemoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +645,7 @@
 		};
 		86445CDA1F79A6E200011DBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7428449FC6F55D53818BE074 /* Pods-PhoneGapDemoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +661,7 @@
 		};
 		86445CDC1F79A6E200011DBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB729A3AE5A3E447B974A518 /* Pods-PhoneGapDemoAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +679,7 @@
 		};
 		86445CDD1F79A6E200011DBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73C6243B947877771D368BE5 /* Pods-PhoneGapDemoAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +697,7 @@
 		};
 		86445CDF1F79A6E200011DBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1FF9986253F35424F749829 /* Pods-PhoneGapDemoAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +714,7 @@
 		};
 		86445CE01F79A6E200011DBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00F5F5BFCA5D1743280CD151 /* Pods-PhoneGapDemoAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
