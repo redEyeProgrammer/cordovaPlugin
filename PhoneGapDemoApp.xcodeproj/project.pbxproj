@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86445CB41F79A6E200011DBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86445CB31F79A6E200011DBC /* AppDelegate.swift */; };
+		86445CB61F79A6E200011DBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86445CB51F79A6E200011DBC /* ViewController.swift */; };
+		86445CB91F79A6E200011DBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86445CB71F79A6E200011DBC /* Main.storyboard */; };
+		86445CBB1F79A6E200011DBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86445CBA1F79A6E200011DBC /* Assets.xcassets */; };
+		86445CBE1F79A6E200011DBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86445CBC1F79A6E200011DBC /* LaunchScreen.storyboard */; };
+		86445CC91F79A6E200011DBC /* PhoneGapDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86445CC81F79A6E200011DBC /* PhoneGapDemoAppTests.swift */; };
+		86445CD41F79A6E200011DBC /* PhoneGapDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86445CD31F79A6E200011DBC /* PhoneGapDemoAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86445CC51F79A6E200011DBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86445CA81F79A6E200011DBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86445CAF1F79A6E200011DBC;
+			remoteInfo = PhoneGapDemoApp;
+		};
+		86445CD01F79A6E200011DBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86445CA81F79A6E200011DBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86445CAF1F79A6E200011DBC;
+			remoteInfo = PhoneGapDemoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86445CB01F79A6E200011DBC /* PhoneGapDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneGapDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86445CB31F79A6E200011DBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86445CB51F79A6E200011DBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86445CB81F79A6E200011DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86445CBA1F79A6E200011DBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86445CBD1F79A6E200011DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86445CBF1F79A6E200011DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86445CC41F79A6E200011DBC /* PhoneGapDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneGapDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86445CC81F79A6E200011DBC /* PhoneGapDemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneGapDemoAppTests.swift; sourceTree = "<group>"; };
+		86445CCA1F79A6E200011DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86445CCF1F79A6E200011DBC /* PhoneGapDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneGapDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86445CD31F79A6E200011DBC /* PhoneGapDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneGapDemoAppUITests.swift; sourceTree = "<group>"; };
+		86445CD51F79A6E200011DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86445CAD1F79A6E200011DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86445CC11F79A6E200011DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86445CCC1F79A6E200011DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86445CA71F79A6E200011DBC = {
+			isa = PBXGroup;
+			children = (
+				86445CB21F79A6E200011DBC /* PhoneGapDemoApp */,
+				86445CC71F79A6E200011DBC /* PhoneGapDemoAppTests */,
+				86445CD21F79A6E200011DBC /* PhoneGapDemoAppUITests */,
+				86445CB11F79A6E200011DBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86445CB11F79A6E200011DBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86445CB01F79A6E200011DBC /* PhoneGapDemoApp.app */,
+				86445CC41F79A6E200011DBC /* PhoneGapDemoAppTests.xctest */,
+				86445CCF1F79A6E200011DBC /* PhoneGapDemoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86445CB21F79A6E200011DBC /* PhoneGapDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				86445CB31F79A6E200011DBC /* AppDelegate.swift */,
+				86445CB51F79A6E200011DBC /* ViewController.swift */,
+				86445CB71F79A6E200011DBC /* Main.storyboard */,
+				86445CBA1F79A6E200011DBC /* Assets.xcassets */,
+				86445CBC1F79A6E200011DBC /* LaunchScreen.storyboard */,
+				86445CBF1F79A6E200011DBC /* Info.plist */,
+			);
+			path = PhoneGapDemoApp;
+			sourceTree = "<group>";
+		};
+		86445CC71F79A6E200011DBC /* PhoneGapDemoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				86445CC81F79A6E200011DBC /* PhoneGapDemoAppTests.swift */,
+				86445CCA1F79A6E200011DBC /* Info.plist */,
+			);
+			path = PhoneGapDemoAppTests;
+			sourceTree = "<group>";
+		};
+		86445CD21F79A6E200011DBC /* PhoneGapDemoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86445CD31F79A6E200011DBC /* PhoneGapDemoAppUITests.swift */,
+				86445CD51F79A6E200011DBC /* Info.plist */,
+			);
+			path = PhoneGapDemoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86445CAF1F79A6E200011DBC /* PhoneGapDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86445CD81F79A6E200011DBC /* Build configuration list for PBXNativeTarget "PhoneGapDemoApp" */;
+			buildPhases = (
+				86445CAC1F79A6E200011DBC /* Sources */,
+				86445CAD1F79A6E200011DBC /* Frameworks */,
+				86445CAE1F79A6E200011DBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneGapDemoApp;
+			productName = PhoneGapDemoApp;
+			productReference = 86445CB01F79A6E200011DBC /* PhoneGapDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86445CC31F79A6E200011DBC /* PhoneGapDemoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86445CDB1F79A6E200011DBC /* Build configuration list for PBXNativeTarget "PhoneGapDemoAppTests" */;
+			buildPhases = (
+				86445CC01F79A6E200011DBC /* Sources */,
+				86445CC11F79A6E200011DBC /* Frameworks */,
+				86445CC21F79A6E200011DBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86445CC61F79A6E200011DBC /* PBXTargetDependency */,
+			);
+			name = PhoneGapDemoAppTests;
+			productName = PhoneGapDemoAppTests;
+			productReference = 86445CC41F79A6E200011DBC /* PhoneGapDemoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86445CCE1F79A6E200011DBC /* PhoneGapDemoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86445CDE1F79A6E200011DBC /* Build configuration list for PBXNativeTarget "PhoneGapDemoAppUITests" */;
+			buildPhases = (
+				86445CCB1F79A6E200011DBC /* Sources */,
+				86445CCC1F79A6E200011DBC /* Frameworks */,
+				86445CCD1F79A6E200011DBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86445CD11F79A6E200011DBC /* PBXTargetDependency */,
+			);
+			name = PhoneGapDemoAppUITests;
+			productName = PhoneGapDemoAppUITests;
+			productReference = 86445CCF1F79A6E200011DBC /* PhoneGapDemoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86445CA81F79A6E200011DBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = redEye;
+				TargetAttributes = {
+					86445CAF1F79A6E200011DBC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					86445CC31F79A6E200011DBC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 86445CAF1F79A6E200011DBC;
+					};
+					86445CCE1F79A6E200011DBC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 86445CAF1F79A6E200011DBC;
+					};
+				};
+			};
+			buildConfigurationList = 86445CAB1F79A6E200011DBC /* Build configuration list for PBXProject "PhoneGapDemoApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86445CA71F79A6E200011DBC;
+			productRefGroup = 86445CB11F79A6E200011DBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86445CAF1F79A6E200011DBC /* PhoneGapDemoApp */,
+				86445CC31F79A6E200011DBC /* PhoneGapDemoAppTests */,
+				86445CCE1F79A6E200011DBC /* PhoneGapDemoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86445CAE1F79A6E200011DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86445CBE1F79A6E200011DBC /* LaunchScreen.storyboard in Resources */,
+				86445CBB1F79A6E200011DBC /* Assets.xcassets in Resources */,
+				86445CB91F79A6E200011DBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86445CC21F79A6E200011DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86445CCD1F79A6E200011DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86445CAC1F79A6E200011DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86445CB61F79A6E200011DBC /* ViewController.swift in Sources */,
+				86445CB41F79A6E200011DBC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86445CC01F79A6E200011DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86445CC91F79A6E200011DBC /* PhoneGapDemoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86445CCB1F79A6E200011DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86445CD41F79A6E200011DBC /* PhoneGapDemoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86445CC61F79A6E200011DBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86445CAF1F79A6E200011DBC /* PhoneGapDemoApp */;
+			targetProxy = 86445CC51F79A6E200011DBC /* PBXContainerItemProxy */;
+		};
+		86445CD11F79A6E200011DBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86445CAF1F79A6E200011DBC /* PhoneGapDemoApp */;
+			targetProxy = 86445CD01F79A6E200011DBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86445CB71F79A6E200011DBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86445CB81F79A6E200011DBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86445CBC1F79A6E200011DBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86445CBD1F79A6E200011DBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86445CD61F79A6E200011DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86445CD71F79A6E200011DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86445CD91F79A6E200011DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5A4XZ2BS58;
+				INFOPLIST_FILE = PhoneGapDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redEye.PhoneGapDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86445CDA1F79A6E200011DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5A4XZ2BS58;
+				INFOPLIST_FILE = PhoneGapDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redEye.PhoneGapDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86445CDC1F79A6E200011DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5A4XZ2BS58;
+				INFOPLIST_FILE = PhoneGapDemoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redEye.PhoneGapDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoneGapDemoApp.app/PhoneGapDemoApp";
+			};
+			name = Debug;
+		};
+		86445CDD1F79A6E200011DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5A4XZ2BS58;
+				INFOPLIST_FILE = PhoneGapDemoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redEye.PhoneGapDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoneGapDemoApp.app/PhoneGapDemoApp";
+			};
+			name = Release;
+		};
+		86445CDF1F79A6E200011DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5A4XZ2BS58;
+				INFOPLIST_FILE = PhoneGapDemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redEye.PhoneGapDemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhoneGapDemoApp;
+			};
+			name = Debug;
+		};
+		86445CE01F79A6E200011DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5A4XZ2BS58;
+				INFOPLIST_FILE = PhoneGapDemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redEye.PhoneGapDemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhoneGapDemoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86445CAB1F79A6E200011DBC /* Build configuration list for PBXProject "PhoneGapDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86445CD61F79A6E200011DBC /* Debug */,
+				86445CD71F79A6E200011DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86445CD81F79A6E200011DBC /* Build configuration list for PBXNativeTarget "PhoneGapDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86445CD91F79A6E200011DBC /* Debug */,
+				86445CDA1F79A6E200011DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86445CDB1F79A6E200011DBC /* Build configuration list for PBXNativeTarget "PhoneGapDemoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86445CDC1F79A6E200011DBC /* Debug */,
+				86445CDD1F79A6E200011DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86445CDE1F79A6E200011DBC /* Build configuration list for PBXNativeTarget "PhoneGapDemoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86445CDF1F79A6E200011DBC /* Debug */,
+				86445CE01F79A6E200011DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86445CA81F79A6E200011DBC /* Project object */;
+}
